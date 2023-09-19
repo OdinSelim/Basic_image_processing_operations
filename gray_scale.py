@@ -2,7 +2,6 @@ import cv2
 
 img = cv2.imread('indir.jpg', 0)
 
-#print(img)
 
 cv2.imshow('image_title', img)
 k = cv2.waitKey(5000)
